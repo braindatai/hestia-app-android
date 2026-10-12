@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hestia Home Organizer — Confidentialité & conditions</title>
+<meta name="description" content="Politique de confidentialité, conditions d'utilisation et mentions légales de l'application Hestia Home Organizer. Privacy policy and terms of use.">
+<link rel="icon" href="data:image/svg+xml,&lt;svg viewBox=&quot;0 0 120 120&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M60 16 L102 52 H18 Z&quot; fill=&quot;%232A3D66&quot; stroke=&quot;%232A3D66&quot; stroke-width=&quot;4&quot; stroke-linejoin=&quot;round&quot;/&gt;&lt;rect x=&quot;24&quot; y=&quot;58&quot; width=&quot;34&quot; height=&quot;19&quot; rx=&quot;5&quot; fill=&quot;%233B82C4&quot;/&gt;&lt;rect x=&quot;62&quot; y=&quot;58&quot; width=&quot;34&quot; height=&quot;19&quot; rx=&quot;5&quot; fill=&quot;%23F2A541&quot;/&gt;&lt;rect x=&quot;24&quot; y=&quot;81&quot; width=&quot;34&quot; height=&quot;19&quot; rx=&quot;5&quot; fill=&quot;%234CAF7A&quot;/&gt;&lt;rect x=&quot;62&quot; y=&quot;81&quot; width=&quot;34&quot; height=&quot;19&quot; rx=&quot;5&quot; fill=&quot;%23E26D8A&quot;/&gt;&lt;/svg&gt;">
+<style>
+:root {
+  --fond: #F6F3EE; --carte: #FFFFFF; --texte: #1F2633; --doux: #555E70; --trait: #E3DED5;
+  --marine: #2A3D66; --bleu: #3B82C4; --ambre: #F2A541; --vert: #4CAF7A; --rose: #E26D8A;
+  --lien: #2F6FAE;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --fond: #14171D; --carte: #1C2029; --texte: #E9ECF2; --doux: #A3ABBA; --trait: #2C323E; --marine: #9DB4E8; --lien: #8CB8F0; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--fond); color: var(--texte);
+  /* Polices du système : aucune requête vers un service externe sur une page de confidentialité. */
+  font: 17px/1.65 Charter, "Bitstream Charter", "Iowan Old Style", Georgia, Cambria, "Times New Roman", serif;
+  padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+}
+.sans { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--lien); text-underline-offset: 2px; }
+.bande { height: 6px; background: linear-gradient(90deg, var(--bleu) 0 25%, var(--ambre) 25% 50%, var(--vert) 50% 75%, var(--rose) 75%); }
+header { max-width: 780px; margin: 0 auto; padding: 36px 22px 8px; }
+.marque { display: flex; align-items: center; gap: 14px; }
+.marque h1 { margin: 0; font-size: 28px; line-height: 1.1; letter-spacing: -0.3px; color: var(--marine); }
+.marque p { margin: 2px 0 0; color: var(--doux); font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase; }
+.resume { margin: 26px 0 8px; padding: 16px 18px; border-left: 4px solid var(--vert); background: var(--carte); border-radius: 0 10px 10px 0; }
+.medical { margin: 10px 0 0; font-size: 14px; color: var(--doux); }
+.resume strong { display: block; margin-bottom: 4px; }
+nav { position: sticky; top: 0; z-index: 2; background: var(--fond); border-bottom: 1px solid var(--trait); }
+nav .int { max-width: 780px; margin: 0 auto; padding: 10px 22px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+nav button { font: 600 14px/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; border: 1px solid var(--trait); background: var(--carte); color: var(--texte); padding: 9px 13px; border-radius: 999px; cursor: pointer; }
+nav button[aria-pressed="true"] { background: var(--marine); border-color: var(--marine); color: #fff; }
+@media (prefers-color-scheme: dark) { nav button[aria-pressed="true"] { color: #14171D; } }
+nav .langue { margin-left: auto; display: flex; gap: 4px; }
+nav .langue button { padding: 8px 10px; }
+main { max-width: 780px; margin: 0 auto; padding: 8px 22px 40px; }
+.doc h2 { font: 700 30px/1.15 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: -0.5px; margin: 28px 0 4px; color: var(--marine); }
+.maj { margin: 0 0 18px; color: var(--doux); font: 13px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.intro { font-size: 19px; }
+.doc h3 { font: 650 18px/1.3 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 30px 0 6px; }
+.doc section p, .doc li { margin: 0 0 10px; }
+.doc ul { padding-left: 22px; margin: 4px 0 12px; }
+footer { max-width: 780px; margin: 0 auto; padding: 22px; border-top: 1px solid var(--trait); color: var(--doux); font-size: 14px; }
+@media (max-width: 520px) { body { font-size: 16px; } .doc h2 { font-size: 25px; } .intro { font-size: 17px; } }
+@media print { nav, .bande { display: none; } .doc[hidden] { display: block !important; } }
+</style>
+</head>
+<body>
+<div class="bande"></div>
+<header>
+  <div class="marque"><svg viewBox="0 0 120 120" width="56" height="56" aria-hidden="true"><path d="M60 16 L102 52 H18 Z" fill="#2A3D66" stroke="#2A3D66" stroke-width="4" stroke-linejoin="round"/><rect x="24" y="58" width="34" height="19" rx="5" fill="#3B82C4"/><rect x="62" y="58" width="34" height="19" rx="5" fill="#F2A541"/><rect x="24" y="81" width="34" height="19" rx="5" fill="#4CAF7A"/><rect x="62" y="81" width="34" height="19" rx="5" fill="#E26D8A"/></svg><div><h1 class="sans">Hestia Home Organizer</h1><p class="sans" data-t="sous">Application · données 100 % locales</p></div></div>
+  <div class="resume"><strong class="sans" data-t="resumeT">🔒 En résumé</strong><span data-t="resume">Toutes les données restent sur le téléphone de l'utilisateur. Pas de serveur, pas de compte, pas de publicité, pas de suivi. Le développeur n'a accès à aucune information.</span></div>
+  <p class="medical sans" data-t="medical"></p>
+</header>
+<nav aria-label="Documents"><div class="int">
+  <button data-doc="confidentialite" data-t="b1">Confidentialité</button>
+  <button data-doc="conditions" data-t="b2">Conditions</button>
+  <button data-doc="mentions" data-t="b3">Mentions légales</button>
+  <div class="langue"><button data-lang="fr" lang="fr">FR</button><button data-lang="en" lang="en">EN</button></div>
+</div></nav>
+<main>
+<article class="doc" id="fr-confidentialite" data-lang="fr" data-doc="confidentialite" hidden>
+<h2>Politique de confidentialité</h2><p class="maj">Dernière mise à jour : 10 octobre 2026</p><p class="intro">Hestia Home Organizer (« Hestia ») est une application qui fonctionne entièrement sur ton téléphone. Elle n&#x27;a ni serveur, ni compte utilisateur, ni publicité, ni outil de statistiques ou de suivi. Cette politique explique quelles données sont concernées et ce qu&#x27;il en advient, conformément au Règlement général sur la protection des données (RGPD – règlement (UE) 2016/679) et à la loi belge du 30 juillet 2018.</p>
+<section><h3>1. Qui est responsable ?</h3>
+<p>L&#x27;application est développée et publiée par braindatai, personne physique établie en Belgique.</p>
+<p>Contact pour toute question relative à la vie privée : <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>.</p>
+</section>
+<section><h3>2. Le principe : tout reste sur ton appareil</h3>
+<p>Toutes les informations que tu encodes (membres du foyer, rendez-vous et données de santé, comptes, opérations bancaires importées, budget, collections, voitures, prêts, consommations, photos…) sont enregistrées uniquement dans une base de données locale, dans l&#x27;espace privé de l&#x27;application sur ton téléphone.</p>
+<p>Ces données ne sont jamais envoyées au développeur ni à un serveur de l&#x27;application. Le développeur n&#x27;y a aucun accès, ne peut pas les consulter, les récupérer ou les restaurer.</p>
+<p>Tu utilises l&#x27;application pour tes besoins personnels et familiaux : la gestion de ces données relève de ta propre responsabilité, dans le cadre de l&#x27;usage domestique prévu par l&#x27;article 2 du RGPD.</p>
+</section>
+<section><h3>3. Données sensibles</h3>
+<p>Cette application n&#x27;est pas un dispositif médical. Elle ne fournit aucun diagnostic ni conseil médical et sert uniquement à la gestion personnelle des données du foyer.</p>
+<p>L&#x27;application permet d&#x27;encoder des données de santé (rendez-vous médicaux, groupe sanguin, allergies, vaccins, médicaments) et des données financières. Elles restent elles aussi exclusivement sur ton appareil.</p>
+<p>Si tu encodes des informations sur d&#x27;autres personnes (conjoint, enfants…), veille à le faire avec leur accord ou dans leur intérêt, comme le ferait un carnet familial papier.</p>
+</section>
+<section><h3>4. Quand l&#x27;application utilise internet</h3>
+<p>L&#x27;application ne se connecte à internet que lorsque tu le demandes explicitement :</p>
+<p>Sans action de ta part, l&#x27;application ne communique avec aucun service.</p>
+<ul><li>Recherche d&#x27;un livre, manga, BD, jeu ou DVD (par code-barres ou par titre) : le code ISBN/EAN ou le texte recherché est envoyé à des catalogues publics (Bibliothèque nationale de France, Google Books, Open Library, UPCitemdb). Comme pour toute connexion, ces services reçoivent aussi ton adresse IP. Aucune autre donnée n&#x27;est transmise. Certains de ces services sont situés hors de l&#x27;Union européenne (notamment aux États-Unis) et appliquent leur propre politique de confidentialité.</li><li>Ouverture d&#x27;un lien (page web d&#x27;un produit, PayPal, Buy Me a Coffee) : la page s&#x27;ouvre dans ton navigateur ou dans l&#x27;application concernée, qui applique ses propres règles.</li><li>Agenda (option désactivée par défaut) : si tu l&#x27;actives, Hestia écrit tes rendez-vous à venir (type, praticien, nom de la personne, date, lieu, notes) dans l&#x27;agenda du téléphone que tu choisis. Si cet agenda appartient à ton compte Google, Android le synchronise avec Google Agenda : ces informations sont alors traitées par Google selon sa propre politique de confidentialité. Hestia ne reçoit aucun identifiant ni mot de passe.</li></ul>
+</section>
+<section><h3>5. Autorisations du téléphone</h3>
+<p>Tu peux retirer ces autorisations à tout moment dans les réglages Android.</p>
+<ul><li>Caméra : scanner un code-barres et prendre des photos. Les images sont traitées sur le téléphone.</li><li>Photos / fichiers : choisir des photos, importer ou exporter des fichiers (CSV, relevés bancaires, sauvegardes). Tu choisis toi-même chaque fichier et chaque emplacement.</li><li>Notifications : rappels de rendez-vous, vaccins et échéances. Ils sont programmés localement.</li><li>Démarrage du téléphone : reprogrammer ces rappels après un redémarrage.</li><li>Agenda (facultatif) : ajouter, modifier et supprimer les rendez-vous de Hestia dans l&#x27;agenda choisi.</li><li>Internet : uniquement pour les usages décrits au point 4.</li></ul>
+</section>
+<section><h3>6. Sauvegardes, exports et fichiers</h3>
+<p>Les sauvegardes (.db) et exports (CSV, notes copiées) sont créés uniquement à ta demande, à l&#x27;endroit que tu choisis (téléphone, Google Drive, e-mail, WhatsApp…). Une fois partagés, ces fichiers sont sous ta responsabilité et soumis aux conditions du service choisi. Ils contiennent tes données en clair : conserve-les en lieu sûr.</p>
+<p>Les photos liées aux éléments sont copiées dans le dossier privé de l&#x27;application ; la sauvegarde .db contient leur emplacement, pas les images elles-mêmes.</p>
+</section>
+<section><h3>7. Sécurité</h3>
+<p>Les données sont protégées par l&#x27;isolement des applications d&#x27;Android et par le chiffrement de ton téléphone (actif par défaut sur les appareils récents). La base de données n&#x27;est pas chiffrée en plus par l&#x27;application.</p>
+<p>Le code PIN facultatif n&#x27;est jamais enregistré en clair : seule une empreinte cryptographique (SHA-256 avec sel) est conservée.</p>
+<p>Nous te recommandons de verrouiller ton téléphone, d&#x27;activer le code PIN de l&#x27;application et de garder tes sauvegardes en lieu sûr.</p>
+</section>
+<section><h3>8. Combien de temps les données sont conservées</h3>
+<p>Tes données restent sur ton appareil tant que tu ne les supprimes pas. Tu peux supprimer un élément, une collection ou un compte à tout moment dans l&#x27;application.</p>
+<p>Pour tout effacer : désinstalle l&#x27;application ou utilise « Effacer les données » dans les réglages Android. Pense aussi à supprimer les sauvegardes et exports que tu as créés.</p>
+</section>
+<section><h3>9. Contact avec le support</h3>
+<p>Si tu écris à <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>, le développeur reçoit ton adresse e-mail et le contenu de ton message. Ces informations servent uniquement à te répondre (base légale : intérêt légitime à traiter ta demande, article 6.1.f du RGPD). Elles ne sont ni vendues ni partagées, et sont supprimées au plus tard 24 mois après le dernier échange.</p>
+<p>N&#x27;envoie pas de données de santé ou bancaires par e-mail : ce n&#x27;est pas nécessaire pour obtenir de l&#x27;aide.</p>
+</section>
+<section><h3>10. Dons</h3>
+<p>Les dons sont facultatifs et passent par PayPal, Buy Me a Coffee ou un virement bancaire. Ces services traitent tes données de paiement selon leur propre politique. Le développeur reçoit uniquement les informations qu&#x27;ils transmettent (par exemple ton nom, le montant et éventuellement ton e-mail ou un message), conservées le temps nécessaire et pour respecter d&#x27;éventuelles obligations légales.</p>
+</section>
+<section><h3>11. Tes droits</h3>
+<p>Pour les données que tu gères dans l&#x27;application, tu exerces toi-même tous tes droits : consulter, modifier, exporter (CSV, sauvegarde) et supprimer.</p>
+<p>Pour les données éventuellement détenues par le développeur (e-mails de support, informations de don), tu disposes d&#x27;un droit d&#x27;accès, de rectification, d&#x27;effacement, de limitation, d&#x27;opposition et de portabilité. Écris à <a href="mailto:braindatai@proton.me">braindatai@proton.me</a> ; une réponse te sera donnée dans un délai d&#x27;un mois.</p>
+<p>Tu peux aussi introduire une réclamation auprès de l&#x27;Autorité de protection des données : rue de la Presse 35, 1000 Bruxelles – <a href="https://www.autoriteprotectiondonnees.be" rel="noopener">www.autoriteprotectiondonnees.be</a>.</p>
+</section>
+<section><h3>12. Enfants</h3>
+<p>L&#x27;application s&#x27;adresse aux adultes qui gèrent un foyer. Les informations concernant des enfants sont encodées par leurs parents et restent sur l&#x27;appareil.</p>
+</section>
+<section><h3>13. Modifications</h3>
+<p>Cette politique peut évoluer avec l&#x27;application. La date de mise à jour figure en haut de cette page. En cas de changement important (par exemple l&#x27;ajout d&#x27;un service en ligne), tu en seras informé dans l&#x27;application.</p>
+</section>
+</article>
+<article class="doc" id="fr-conditions" data-lang="fr" data-doc="conditions" hidden>
+<h2>Conditions d&#x27;utilisation</h2><p class="maj">Dernière mise à jour : 10 octobre 2026</p><p class="intro">En utilisant Hestia Home Organizer, tu acceptes les présentes conditions. Si tu ne les acceptes pas, n&#x27;utilise pas l&#x27;application.</p>
+<section><h3>1. Objet</h3>
+<p>Hestia est une application gratuite d&#x27;organisation personnelle et familiale : foyer, santé, finances, budget, collections, listes, voitures. Elle est destinée à un usage privé et non commercial.</p>
+</section>
+<section><h3>2. Gratuité et dons</h3>
+<p>L&#x27;application est gratuite et sans publicité. Les dons sont entièrement facultatifs : ils ne donnent accès à aucune fonctionnalité supplémentaire, ne constituent pas un achat et ne sont pas remboursables, sauf disposition légale contraire.</p>
+</section>
+<section><h3>3. Tes données et tes sauvegardes</h3>
+<p>Tes données sont stockées uniquement sur ton appareil (voir la politique de confidentialité). Le développeur ne peut ni les consulter ni les récupérer.</p>
+<p>Tu es seul responsable de tes sauvegardes. En cas de perte, de vol, de panne ou de réinitialisation du téléphone, ou d&#x27;oubli du code PIN, les données non sauvegardées sont définitivement perdues. Fais régulièrement une sauvegarde (Paramètres &gt; Sauvegarde) et garde-la en lieu sûr.</p>
+</section>
+<section><h3>4. Pas un dispositif médical, pas un conseil professionnel</h3>
+<p>Cette application n&#x27;est pas un dispositif médical. Elle ne fournit aucun diagnostic ni conseil médical et sert uniquement à la gestion personnelle des données du foyer.</p>
+<p>Les informations, calculs et estimations de l&#x27;application (soldes, budget, provisions, analyses de dépenses, gains ou pertes en bourse, estimation du kilométrage de leasing, consommations, rappels…) sont fournis à titre indicatif, à partir de ce que tu encodes. Ils ne remplacent pas ta banque, ton contrat, un conseiller financier, fiscal ou juridique.</p>
+<p>Les fonctions liées à la santé (rendez-vous, vaccins, médicaments, dates de péremption) sont des aide-mémoire. Elles ne constituent pas un avis médical : en cas de doute, consulte un médecin ou un pharmacien.</p>
+<p>Les rappels dépendent de ton téléphone (autorisations, économie de batterie, redémarrage) : ne te fie pas uniquement à eux pour une échéance importante.</p>
+<p>Les textes générés pour les assistants d&#x27;intelligence artificielle (avis produit, idées recettes) sont de simples propositions de questions. Les réponses de ces services relèvent de leur responsabilité et doivent être vérifiées.</p>
+</section>
+<section><h3>5. Services tiers</h3>
+<p>Certaines fonctions s&#x27;appuient sur des services externes (catalogues de livres et de produits, PayPal, Buy Me a Coffee, applications bancaires, e-mail). Leur disponibilité et l&#x27;exactitude des informations qu&#x27;ils renvoient ne sont pas garanties, et leur utilisation est soumise à leurs propres conditions.</p>
+</section>
+<section><h3>6. Application fournie « en l&#x27;état »</h3>
+<p>L&#x27;application est développée avec soin par un particulier et fournie gratuitement « en l&#x27;état », sans garantie de fonctionnement ininterrompu ou exempt d&#x27;erreurs.</p>
+<p>Dans les limites permises par la loi belge, le développeur ne peut être tenu responsable des dommages indirects liés à l&#x27;utilisation de l&#x27;application (perte de données, décision prise sur la base d&#x27;un calcul, rappel manqué…). Cette limitation ne s&#x27;applique pas en cas de faute intentionnelle ou lourde, ni aux droits que la loi garantit aux consommateurs.</p>
+</section>
+<section><h3>7. Propriété intellectuelle</h3>
+<p>Le nom Hestia Home Organizer, le logo et le code de l&#x27;application appartiennent à braindatai. Les informations issues de catalogues externes restent la propriété de leurs auteurs. L&#x27;application utilise des composants open source, dont les licences sont consultables dans « Licences open source ».</p>
+</section>
+<section><h3>8. Utilisation correcte</h3>
+<p>Tu t&#x27;engages à utiliser l&#x27;application conformément à la loi et à ne pas encoder de données concernant des tiers sans raison légitime.</p>
+</section>
+<section><h3>9. Évolution des conditions</h3>
+<p>Ces conditions peuvent être mises à jour avec l&#x27;application. La version en vigueur est toujours consultable dans le menu.</p>
+</section>
+<section><h3>10. Droit applicable</h3>
+<p>Ces conditions sont régies par le droit belge. Si tu es un consommateur, tu conserves la protection des règles impératives du pays où tu résides.</p>
+<p>Contact : <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>.</p>
+</section>
+</article>
+<article class="doc" id="fr-mentions" data-lang="fr" data-doc="mentions" hidden>
+<h2>Mentions légales</h2><p class="maj">Dernière mise à jour : 10 octobre 2026</p><p class="intro">Informations sur l&#x27;éditeur de l&#x27;application.</p>
+<section><h3>Éditeur</h3>
+<p>Hestia Home Organizer est développée et publiée par braindatai, personne physique établie en Belgique.</p>
+<p>Contact : <a href="mailto:braindatai@proton.me">braindatai@proton.me</a></p>
+</section>
+<section><h3>Hébergement</h3>
+<p>Aucun : l&#x27;application ne dispose d&#x27;aucun serveur. Toutes les données sont enregistrées localement sur l&#x27;appareil de l&#x27;utilisateur.</p>
+</section>
+<section><h3>Sources de données externes</h3>
+<p>Recherches de livres et de produits : Bibliothèque nationale de France (<a href="https://catalogue.bnf.fr" rel="noopener">catalogue.bnf.fr</a>), Google Books, Open Library, UPCitemdb, utilisés uniquement à la demande de l&#x27;utilisateur.</p>
+</section>
+<section><h3>Avertissement médical</h3>
+<p>Cette application n&#x27;est pas un dispositif médical. Elle ne fournit aucun diagnostic ni conseil médical et sert uniquement à la gestion personnelle des données du foyer.</p>
+</section>
+<section><h3>Autorité de contrôle</h3>
+<p>Autorité de protection des données (APD), rue de la Presse 35, 1000 Bruxelles – <a href="https://www.autoriteprotectiondonnees.be" rel="noopener">www.autoriteprotectiondonnees.be</a></p>
+</section>
+</article>
+<article class="doc" id="en-confidentialite" data-lang="en" data-doc="confidentialite" hidden>
+<h2>Privacy policy</h2><p class="maj">Last updated: 10 October 2026</p><p class="intro">Hestia Home Organizer (&quot;Hestia&quot;) is an app that runs entirely on your phone. It has no server, no user account, no advertising and no analytics or tracking tools. This policy explains which data is involved and what happens to it, in accordance with the General Data Protection Regulation (GDPR – Regulation (EU) 2016/679) and the Belgian law of 30 July 2018.</p>
+<section><h3>1. Who is responsible?</h3>
+<p>The app is developed and published by braindatai, a private individual based in Belgium.</p>
+<p>Contact for any privacy question: <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>.</p>
+</section>
+<section><h3>2. The principle: everything stays on your device</h3>
+<p>All the information you enter (household members, appointments and health data, accounts, imported bank transactions, budget, collections, cars, loans, consumption, photos…) is stored only in a local database, in the app&#x27;s private storage on your phone.</p>
+<p>This data is never sent to the developer or to any app server. The developer has no access to it and cannot view, retrieve or restore it.</p>
+<p>You use the app for your own personal and household needs: managing this data is your own responsibility, within the household use provided for in Article 2 GDPR.</p>
+</section>
+<section><h3>3. Sensitive data</h3>
+<p>This app is not a medical device. It does not provide any diagnosis or medical advice and is intended solely for the personal management of household data.</p>
+<p>The app lets you record health data (medical appointments, blood type, allergies, vaccines, medicines) and financial data. This data also stays exclusively on your device.</p>
+<p>If you record information about other people (partner, children…), make sure you do so with their consent or in their interest, as you would in a paper family notebook.</p>
+</section>
+<section><h3>4. When the app uses the internet</h3>
+<p>The app only connects to the internet when you explicitly ask it to:</p>
+<p>Without an action from you, the app does not communicate with any service.</p>
+<ul><li>Looking up a book, manga, comic, game or DVD (by barcode or title): the ISBN/EAN code or the search text is sent to public catalogues (French National Library, Google Books, Open Library, UPCitemdb). As with any connection, these services also receive your IP address. No other data is sent. Some of these services are located outside the European Union (notably in the United States) and apply their own privacy policy.</li><li>Opening a link (product web page, PayPal, Buy Me a Coffee): the page opens in your browser or in the relevant app, which applies its own rules.</li><li>Calendar (option off by default): if you enable it, Hestia writes your upcoming appointments (type, practitioner, person&#x27;s name, date, place, notes) to the phone calendar you choose. If that calendar belongs to your Google account, Android syncs it with Google Calendar: this information is then processed by Google under its own privacy policy. Hestia never receives any login or password.</li></ul>
+</section>
+<section><h3>5. Phone permissions</h3>
+<p>You can withdraw these permissions at any time in the Android settings.</p>
+<ul><li>Camera: scan a barcode and take photos. Images are processed on the phone.</li><li>Photos / files: choose photos, import or export files (CSV, bank statements, backups). You choose each file and each location yourself.</li><li>Notifications: reminders for appointments, vaccines and due dates. They are scheduled locally.</li><li>Phone start-up: reschedule these reminders after a restart.</li><li>Calendar (optional): add, update and delete Hestia appointments in the chosen calendar.</li><li>Internet: only for the uses described in point 4.</li></ul>
+</section>
+<section><h3>6. Backups, exports and files</h3>
+<p>Backups (.db) and exports (CSV, copied notes) are created only at your request, in the location you choose (phone, Google Drive, e-mail, WhatsApp…). Once shared, these files are your responsibility and subject to the terms of the chosen service. They contain your data in plain form: keep them somewhere safe.</p>
+<p>Photos linked to items are copied into the app&#x27;s private folder; the .db backup contains their location, not the images themselves.</p>
+</section>
+<section><h3>7. Security</h3>
+<p>Data is protected by Android&#x27;s app isolation and by your phone&#x27;s encryption (enabled by default on recent devices). The database is not additionally encrypted by the app.</p>
+<p>The optional PIN code is never stored in plain text: only a cryptographic fingerprint (salted SHA-256) is kept.</p>
+<p>We recommend locking your phone, enabling the app&#x27;s PIN code and keeping your backups somewhere safe.</p>
+</section>
+<section><h3>8. How long data is kept</h3>
+<p>Your data stays on your device until you delete it. You can delete an item, a collection or an account at any time in the app.</p>
+<p>To erase everything: uninstall the app or use &quot;Clear data&quot; in the Android settings. Also remember to delete the backups and exports you have created.</p>
+</section>
+<section><h3>9. Contacting support</h3>
+<p>If you write to <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>, the developer receives your e-mail address and the content of your message. This information is used only to reply to you (legal basis: legitimate interest in handling your request, Article 6(1)(f) GDPR). It is neither sold nor shared, and is deleted at the latest 24 months after the last exchange.</p>
+<p>Do not send health or banking data by e-mail: it is not needed to get help.</p>
+</section>
+<section><h3>10. Donations</h3>
+<p>Donations are optional and go through PayPal, Buy Me a Coffee or a bank transfer. These services process your payment data under their own policy. The developer only receives the information they pass on (for example your name, the amount and possibly your e-mail or a message), kept for as long as necessary and to comply with any legal obligations.</p>
+</section>
+<section><h3>11. Your rights</h3>
+<p>For the data you manage in the app, you exercise all your rights yourself: view, edit, export (CSV, backup) and delete.</p>
+<p>For any data held by the developer (support e-mails, donation information), you have the right of access, rectification, erasure, restriction, objection and portability. Write to <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>; you will receive an answer within one month.</p>
+<p>You can also lodge a complaint with the Belgian Data Protection Authority: Rue de la Presse 35, 1000 Brussels – <a href="https://www.dataprotectionauthority.be" rel="noopener">www.dataprotectionauthority.be</a>.</p>
+</section>
+<section><h3>12. Children</h3>
+<p>The app is intended for adults managing a household. Information about children is entered by their parents and stays on the device.</p>
+</section>
+<section><h3>13. Changes</h3>
+<p>This policy may change as the app evolves. The update date is shown at the top of this page. In the event of a significant change (for example adding an online service), you will be informed in the app.</p>
+</section>
+</article>
+<article class="doc" id="en-conditions" data-lang="en" data-doc="conditions" hidden>
+<h2>Terms of use</h2><p class="maj">Last updated: 10 October 2026</p><p class="intro">By using Hestia Home Organizer, you accept these terms. If you do not accept them, do not use the app.</p>
+<section><h3>1. Purpose</h3>
+<p>Hestia is a free personal and family organisation app: household, health, finances, budget, collections, lists, cars. It is intended for private, non-commercial use.</p>
+</section>
+<section><h3>2. Free of charge and donations</h3>
+<p>The app is free and ad-free. Donations are entirely optional: they do not unlock any extra feature, are not a purchase and are not refundable, unless the law provides otherwise.</p>
+</section>
+<section><h3>3. Your data and your backups</h3>
+<p>Your data is stored only on your device (see the privacy policy). The developer can neither view nor recover it.</p>
+<p>You alone are responsible for your backups. If the phone is lost, stolen, broken or reset, or if you forget the PIN code, data that has not been backed up is permanently lost. Make regular backups (Settings &gt; Backup) and keep them somewhere safe.</p>
+</section>
+<section><h3>4. Not a medical device, not professional advice</h3>
+<p>This app is not a medical device. It does not provide any diagnosis or medical advice and is intended solely for the personal management of household data.</p>
+<p>The information, calculations and estimates in the app (balances, budget, provisions, spending analyses, stock gains or losses, lease mileage estimate, consumption, reminders…) are provided for information only, based on what you enter. They do not replace your bank, your contract, or a financial, tax or legal adviser.</p>
+<p>Health-related features (appointments, vaccines, medicines, expiry dates) are reminders. They are not medical advice: if in doubt, consult a doctor or pharmacist.</p>
+<p>Reminders depend on your phone (permissions, battery saving, restart): do not rely on them alone for an important deadline.</p>
+<p>Texts generated for artificial intelligence assistants (product reviews, recipe ideas) are simply suggested questions. The answers of these services are their own responsibility and must be checked.</p>
+</section>
+<section><h3>5. Third-party services</h3>
+<p>Some features rely on external services (book and product catalogues, PayPal, Buy Me a Coffee, banking apps, e-mail). Their availability and the accuracy of the information they return are not guaranteed, and their use is subject to their own terms.</p>
+</section>
+<section><h3>6. App provided &quot;as is&quot;</h3>
+<p>The app is carefully developed by a private individual and provided free of charge &quot;as is&quot;, without any guarantee of uninterrupted or error-free operation.</p>
+<p>To the extent permitted by Belgian law, the developer cannot be held liable for indirect damage arising from the use of the app (data loss, decisions based on a calculation, missed reminder…). This limitation does not apply in the case of intentional or gross misconduct, nor to the rights guaranteed to consumers by law.</p>
+</section>
+<section><h3>7. Intellectual property</h3>
+<p>The name Hestia Home Organizer, the logo and the app&#x27;s code belong to braindatai. Information from external catalogues remains the property of its authors. The app uses open-source components, whose licences can be viewed under &quot;Open-source licences&quot;.</p>
+</section>
+<section><h3>8. Proper use</h3>
+<p>You agree to use the app in accordance with the law and not to record data about third parties without a legitimate reason.</p>
+</section>
+<section><h3>9. Changes to the terms</h3>
+<p>These terms may be updated along with the app. The current version can always be viewed in the menu.</p>
+</section>
+<section><h3>10. Governing law</h3>
+<p>These terms are governed by Belgian law. If you are a consumer, you keep the protection of the mandatory rules of the country where you live.</p>
+<p>Contact: <a href="mailto:braindatai@proton.me">braindatai@proton.me</a>.</p>
+</section>
+</article>
+<article class="doc" id="en-mentions" data-lang="en" data-doc="mentions" hidden>
+<h2>Legal notice</h2><p class="maj">Last updated: 10 October 2026</p><p class="intro">Information about the publisher of the app.</p>
+<section><h3>Publisher</h3>
+<p>Hestia Home Organizer is developed and published by braindatai, a private individual based in Belgium.</p>
+<p>Contact: <a href="mailto:braindatai@proton.me">braindatai@proton.me</a></p>
+</section>
+<section><h3>Hosting</h3>
+<p>None: the app has no server. All data is stored locally on the user&#x27;s device.</p>
+</section>
+<section><h3>External data sources</h3>
+<p>Book and product look-ups: French National Library (<a href="https://catalogue.bnf.fr" rel="noopener">catalogue.bnf.fr</a>), Google Books, Open Library, UPCitemdb, used only at the user&#x27;s request.</p>
+</section>
+<section><h3>Medical disclaimer</h3>
+<p>This app is not a medical device. It does not provide any diagnosis or medical advice and is intended solely for the personal management of household data.</p>
+</section>
+<section><h3>Supervisory authority</h3>
+<p>Belgian Data Protection Authority, Rue de la Presse 35, 1000 Brussels – <a href="https://www.dataprotectionauthority.be" rel="noopener">www.dataprotectionauthority.be</a></p>
+</section>
+</article>
+</main>
+<footer class="sans"><span data-t="pied">© braindatai — Belgique · Contact :</span> <a href="mailto:braindatai@proton.me">braindatai@proton.me</a></footer>
+<script>
+(function () {
+  var textes = {
+    fr: { sous: "Application · données 100 % locales", resumeT: "🔒 En résumé", resume: "Toutes les données restent sur le téléphone de l'utilisateur. Pas de serveur, pas de compte, pas de publicité, pas de suivi. Le développeur n'a accès à aucune information.", b1: "Confidentialité", b2: "Conditions", b3: "Mentions légales", pied: "© braindatai — Belgique · Contact :", medical: "ℹ️ " + "Cette application n'est pas un dispositif médical. Elle ne fournit aucun diagnostic ni conseil médical et sert uniquement à la gestion personnelle des données du foyer." },
+    en: { sous: "App · 100% local data", resumeT: "🔒 In short", resume: "All data stays on the user's phone. No server, no account, no ads, no tracking. The developer has no access to any information.", b1: "Privacy", b2: "Terms", b3: "Legal notice", pied: "© braindatai — Belgium · Contact:", medical: "ℹ️ " + "This app is not a medical device. It does not provide any diagnosis or medical advice and is intended solely for the personal management of household data." }
+  };
+  var alias = { privacy: "confidentialite", terms: "conditions", legal: "mentions" };
+  var etat = { lang: "fr", doc: "confidentialite" };
+
+  function lireAdresse() {
+    // Formats acceptés : #confidentialite  #en/privacy  #fr/conditions  #terms ...
+    var h = decodeURIComponent(location.hash.replace(/^#/, "")).toLowerCase();
+    var morceaux = h.split("/").filter(Boolean);
+    morceaux.forEach(function (m) {
+      if (m === "fr" || m === "en") etat.lang = m;
+      else if (alias[m]) { etat.doc = alias[m]; if (!/^(fr|en)$/.test(morceaux[0])) etat.lang = "en"; }
+      else if (["confidentialite", "conditions", "mentions"].indexOf(m) >= 0) etat.doc = m;
+    });
+    if (!h && (navigator.language || "").slice(0, 2) !== "fr") etat.lang = "en";
+  }
+
+  function afficher(ecrire) {
+    document.documentElement.lang = etat.lang;
+    document.querySelectorAll(".doc").forEach(function (a) {
+      a.hidden = !(a.dataset.lang === etat.lang && a.dataset.doc === etat.doc);
+    });
+    document.querySelectorAll("[data-t]").forEach(function (e) { e.textContent = textes[etat.lang][e.dataset.t]; });
+    document.querySelectorAll("nav [data-doc]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.doc === etat.doc); });
+    document.querySelectorAll("nav [data-lang]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.lang === etat.lang); });
+    var doc = document.getElementById(etat.lang + "-" + etat.doc);
+    document.title = "Hestia Home Organizer — " + (doc ? doc.querySelector("h2").textContent : "");
+    if (ecrire) history.replaceState(null, "", "#" + etat.lang + "/" + etat.doc);
+  }
+
+  document.querySelectorAll("nav [data-doc]").forEach(function (b) {
+    b.addEventListener("click", function () { etat.doc = b.dataset.doc; afficher(true); window.scrollTo(0, 0); });
+  });
+  document.querySelectorAll("nav [data-lang]").forEach(function (b) {
+    b.addEventListener("click", function () { etat.lang = b.dataset.lang; afficher(true); });
+  });
+  window.addEventListener("hashchange", function () { lireAdresse(); afficher(false); });
+  lireAdresse();
+  afficher(false);
+})();
+</script>
+<noscript><style>.doc[hidden] { display: block !important; }</style></noscript>
+</body>
+</html>
